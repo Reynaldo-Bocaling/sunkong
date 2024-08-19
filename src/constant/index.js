@@ -39,13 +39,19 @@ export const socials = [
     variant: "w-16 h-10",
   },
   {
+    img: "/img/telegram_icon.png",
+    url: "https://t.me/Sunkongtrx",
+    variant: "w-16 h-16",
+  },
+  {
     img: "/img/sunpump.png",
     url: "",
     variant: "w-16 h-16",
   },
+
   {
-    img: "/img/telegram_icon.png",
-    url: "https://t.me/Sunkongtrx",
+    img: "/img/dex.png",
+    url: "",
     variant: "w-16 h-16",
   },
 ];
