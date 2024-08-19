@@ -1,6 +1,6 @@
 import React from "react";
 import { howtobuy, tokenomics } from "../constant";
-
+import Contact from "../view/Contact";
 const Tokenomics = () => {
   return (
     <section className="w-full relative bg-gradient-to-bl from-orange-600 via-red-600 to-rose-700">
@@ -21,6 +21,8 @@ const Tokenomics = () => {
         </ul>
         <img src="/img/banner.jpg" className="mt-20" alt="" />
       </div>
+
+      <Contact />
     </section>
   );
 };

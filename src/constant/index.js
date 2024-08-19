@@ -34,20 +34,19 @@ export const tokenomics = [
 
 export const socials = [
   {
-    img: "/img/socials/twitter.png",
-    url: "",
+    img: "/img/X-Logo.png",
+    url: "https://x.com/sunkongtrx",
+    variant: "w-16 h-10",
   },
   {
-    img: "/img/socials/tele.png",
+    img: "/img/sunpump.png",
     url: "",
+    variant: "w-16 h-16",
   },
   {
-    img: "/img/socials/dextool.png",
-    url: "",
-  },
-  {
-    img: "/img/socials/dexscreener.png",
-    url: "",
+    img: "/img/telegram_icon.png",
+    url: "https://t.me/SunKongCommunity",
+    variant: "w-16 h-16",
   },
 ];
 
