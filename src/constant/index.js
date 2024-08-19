@@ -51,8 +51,8 @@ export const socials = [
 
   {
     img: "/img/dex.png",
-    url: "",
-    variant: "w-16 h-16",
+    url: "https://www.dextools.io/app/en/tron/pair-explorer/TCq18k6XF716vHGKkVyfQQv9HSu2Zs13h4?t=1724085821242",
+    variant: "w-14 h-14",
   },
 ];
 
