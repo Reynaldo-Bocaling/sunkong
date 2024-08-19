@@ -43,11 +43,6 @@ export const socials = [
     url: "",
     variant: "w-16 h-16",
   },
-  {
-    img: "/img/telegram_icon.png",
-    url: "https://t.me/SunKongCommunity",
-    variant: "w-16 h-16",
-  },
 ];
 
 export const howtobuy = [
