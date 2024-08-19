@@ -15,10 +15,8 @@ const About = () => {
             ABOUT US
           </h1>
           <p className="text-whsite text-lg tracking-wider font-mono">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            officia adipisci explicabo, non doloremque, ipsam modi assumenda
-            voluptatum est perferendis nesciunt suscipit! Commodi nobis maiores
-            alias. Necessitatibus possimus mollitia illo.
+            SunKong, the only Ape Tron deserves. Following Sundog & Suncat,
+            SunKong aims to melts faces and send it straight to the Sun
           </p>
           <button className="btn-style text-xl  mt-7 z-20 py-4 px-12 font-extrabold rotate-6">
             Buy Now
