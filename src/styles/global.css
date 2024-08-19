@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@font-face {
+    font-family: 'chinese-f';
+    src: url('../fonts/OREWA-PersonalUse.otf') format('opentype');
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'chinese-f', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.title {
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7), 0 0 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 0, 0, 0.7)
+}
+
+.normal {
+    font-family: "Orbitron", sans-serif;
+}
+
+body {}
+
+@layer utilities {
+
+    .flexCenter {
+        @apply flex items-center justify-center;
+    }
+
+    .flexBetween {
+        @apply flex items-center justify-between;
+    }
+
+    .flexAround {
+        @apply flex items-center justify-around;
+    }
+
+    .flexStart {
+        @apply flex items-center justify-start;
+    }
+
+    .flexEnd {
+        @apply flex items-center justify-end;
+    }
+
+    .flexColStart {
+        @apply flex flex-col items-start justify-center
+    }
+
+    .flexColCenter {
+        @apply flex flex-col items-center justify-center
+    }
+
+    .flexColEnd {
+        @apply flex flex-col items-end justify-center
+    }
+
+    .flexColBetween {
+        @apply flex flex-col items-center justify-between
+    }
+
+
+}
+
+#hero {
+    background: url('/img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-container {
+    background: url('/img/about-box.png');
+    background-position: center;
+    background-size: 100% 40rem;
+    background-repeat: no-repeat;
+}
+
+.btn-style {
+
+    background-color: yellow;
+    border: 3px solid #000;
+    border-radius: 1em;
+    color: #000;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px #000;
+    animation: heartbeat 3.5s infinite;
+    transform: rotate(45deg);
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+
+
+.btn-style:hover {
+    transform: translate(5px, -5px);
+}
+
+.test {
+    clip-path: 0 100%, 0 0, 100% 100%;
+}
+
+
+@media (max-width: 767px) {
+    .about-container {
+
+        background-size: 100% 100%;
+
+    }
+}
