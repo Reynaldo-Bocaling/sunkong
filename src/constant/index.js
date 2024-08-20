@@ -35,7 +35,7 @@ export const tokenomics = [
 export const socials = [
   {
     img: "/img/X-Logo.png",
-    url: "https://x.com/sunkongtrx",
+    url: "https://x.com/sunkongtron",
     variant: "w-16 h-10",
   },
   {
